@@ -85,7 +85,7 @@ The resulting frames will be extracted to *frames* directory.
 cp ../../data/fashion_MNIST/frames/thumb{0010..0021}.png ../../data/fashion_MNIST/test_frames/
 ```
 
-- Run `demo_MNIST.py 
+- Run demo_MNIST.py 
 ```shell
 cd $SiamMask/experiments/siammask_sharp
 export PYTHONPATH=$PWD:$PYTHONPATH
