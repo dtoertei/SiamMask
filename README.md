@@ -42,12 +42,15 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 
 ## Demo
 - [Setup](#environment-setup) your environment
-- No need to download MNIST CNN, it is located under $SiamMask/experiments/fashion_mnist_cnn
 - Download the SiamMask model
 ```shell
 cd $SiamMask/experiments/siammask_sharp
 wget http://www.robots.ox.ac.uk/~qwang/SiamMask_DAVIS.pth
 ```
+- Download MNIST CNN weights file
+https://drive.google.com/open?id=1i8zn_YxH2zmnfcZfa0W4HzoyrR4khGsR
+Once you download, you should store it also in $SiamMask/experiments/siammask_sharp.
+
 - To reproduce *Dress*/*Sandal*/*Top* results
 ```shell
 rm -r $SiamMask/data/fashionMNIST/test_frames/*.png
@@ -75,6 +78,7 @@ GIF file will be stored in $SiamMask/data/fashion_MNIST/GIFs directory.
 
 ## Testing
 - [Setup](#environment-setup) your environment
+- [Download](#demo) necessary model and weights files
 - Extract video frames
 ```shell
 rm -r $SiamMask/data/fashionMNIST/test_frames/*.png
