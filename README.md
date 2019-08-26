@@ -71,9 +71,10 @@ python ../../data/process_mnist.py
 ```
 GIF file will be stored in $SiamMask/data/fashion_MNIST/GIFs directory.
 
+![](Dress.gif)
 
 <div align="center">
-  <img src="https://github.com/dtoertei/SiamMask/tree/master/data/fashion_MNIST/GIFs/Dress.gif" width="500px" />
+  <img src="https://github.com/dtoertei/SiamMask/tree/master/data/fashion_MNIST/GIFs/Dress.gif)
 </div>
 
 
