@@ -29,6 +29,12 @@ source activate siammask
 pip install -r requirements.txt
 bash make.sh
 ```
+- Install ffmpeg
+```shell
+sudo add-apt-repository ppa:jonathonf/ffmpeg-3
+sudo apt update
+sudo apt install ffmpeg libav-tools x264 x265
+```
 - Add the project to your PYTHONPATH
 ```
 export PYTHONPATH=$PWD:$PYTHONPATH
