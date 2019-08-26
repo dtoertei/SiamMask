@@ -48,7 +48,7 @@ cd $SiamMask/experiments/siammask_sharp
 wget http://www.robots.ox.ac.uk/~qwang/SiamMask_DAVIS.pth
 ```
 - Download MNIST CNN weights file
-https://drive.google.com/open?id=1i8zn_YxH2zmnfcZfa0W4HzoyrR4khGsR
+https://drive.google.com/open?id=1i8zn_YxH2zmnfcZfa0W4HzoyrR4khGsR <br />
 Once you download, you should store it also in $SiamMask/experiments/siammask_sharp.
 
 - To reproduce *Dress*/*Sandal*/*Top* results
