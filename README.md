@@ -76,6 +76,14 @@ GIF file will be stored in $SiamMask/data/fashion_MNIST/GIFs directory.
   <img src="Dress.gif" width="500px">
 </div>
 
+<div align="center">
+  <img src="Dress.gif" width="500px">
+</div>
+
+<div align="center">
+  <img src="Dress.gif" width="500px">
+</div>
+
 
 ## Testing
 - [Setup](#environment-setup) your environment
